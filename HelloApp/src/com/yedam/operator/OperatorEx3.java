@@ -95,6 +95,9 @@ public class OperatorEx3 {
 			if(menu == 3) {
 				System.out.println("현재 balance 의 값은 : " + balance + " 입니다.");
 			}
+			if(menu != 1 && menu != 2 && menu != 3 && menu != 4) {
+				System.out.println("1~4가 아님");
+			}
 		}
 	}
 }
