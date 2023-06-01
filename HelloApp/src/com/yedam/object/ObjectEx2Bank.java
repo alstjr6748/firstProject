@@ -25,7 +25,7 @@ public class ObjectEx2Bank {
 				String own = sc.nextLine();
 				bank.owner = own; 
 				System.out.println("넣을 돈 등록 >>> ");
-				bank.balance = sc.nextInt();
+				bank.balance = Integer.parseInt(sc.nextLine());
 			} else if(selectNo == 2) {	//조회(계좌번호)
 				for(int i = 0; i < accounts.length; i++) {
 					System.out.println(accounts[i]);
